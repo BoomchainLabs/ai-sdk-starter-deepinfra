@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@ai-sdk/deepinfra": "^0.1.16",
+    "@ai-sdk/deepinfra": "^0.2.0",
     "@ai-sdk/react": "^1.1.23",
     "@opentelemetry/api-logs": "^0.200.0",
     "@opentelemetry/instrumentation": "^0.200.0",
