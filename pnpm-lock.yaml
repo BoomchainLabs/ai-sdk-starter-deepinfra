@@ -39,8 +39,8 @@ importers:
         specifier: ^4.1.61
         version: 4.3.16(react@19.1.0)(zod@3.25.28)
       autoevals:
-        specifier: ^0.0.123
-        version: 0.0.123
+        specifier: ^0.0.130
+        version: 0.0.130
       braintrust:
         specifier: ^0.0.190
         version: 0.0.190(openai@4.47.1)(react@19.1.0)(sswr@2.2.0(svelte@5.23.0))(svelte@5.23.0)(vue@3.5.13(typescript@5.8.3))(zod@3.25.28)
@@ -1473,8 +1473,8 @@ packages:
   asynckit@0.4.0:
     resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
 
-  autoevals@0.0.123:
-    resolution: {integrity: sha512-niU8UpwwTLpAHfjPd9MJIxQznaPI6oSCepVdqcEyRZHfVx7qVK8JInofWR5okDomKhg4Q9tDscmColguKAzn6A==}
+  autoevals@0.0.130:
+    resolution: {integrity: sha512-JS0T/YCEH13AAOGiWWGJDkIPP8LsDmRBYr3EazTukHxvd0nidOW7fGj0qVPFx2bARrSNO9AfCR6xoTP/5m3Bmw==}
 
   available-typed-arrays@1.0.7:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
@@ -3413,7 +3413,7 @@ snapshots:
       '@ai-sdk/provider-utils': 1.0.22(zod@3.25.28)
       json-schema: 0.4.0
       secure-json-parse: 2.7.0
-      zod-to-json-schema: 3.24.4(zod@3.25.28)
+      zod-to-json-schema: 3.24.5(zod@3.25.28)
     optionalDependencies:
       zod: 3.25.28
 
@@ -4435,7 +4435,7 @@ snapshots:
       json-schema: 0.4.0
       jsondiffpatch: 0.6.0
       secure-json-parse: 2.7.0
-      zod-to-json-schema: 3.24.4(zod@3.25.28)
+      zod-to-json-schema: 3.24.5(zod@3.25.28)
     optionalDependencies:
       openai: 4.47.1
       react: 19.1.0
@@ -4557,9 +4557,8 @@ snapshots:
 
   asynckit@0.4.0: {}
 
-  autoevals@0.0.123:
+  autoevals@0.0.130:
     dependencies:
-      '@braintrust/core': 0.0.81
       ajv: 8.17.1
       compute-cosine-similarity: 1.1.0
       js-levenshtein: 1.1.6
@@ -4568,7 +4567,7 @@ snapshots:
       mustache: 4.2.0
       openai: 4.47.1
       zod: 3.25.28
-      zod-to-json-schema: 3.24.4(zod@3.25.28)
+      zod-to-json-schema: 3.24.5(zod@3.25.28)
     transitivePeerDependencies:
       - encoding
 
